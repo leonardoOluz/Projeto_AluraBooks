@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -29,9 +30,18 @@
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">DESIGN & UX</a></li>
             </ul>
             <img src="./img_figma/Logo.svg" alt="Logo da Alura" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
+
+        <ul class="opções">
+            <li class="opções__item">Categorias</li>
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+        </ul>
+
+
         <div class="container">
-            <a href="#"><img src="./img_figma/Favoritos.svg" alt="Meus favorito" class="container__imagem"></a>
+            <a href="#"><img src="./img_figma/Favoritos.svg" alt="Meus favorito" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="./img_figma/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
             <a href="#"><img src="./img_figma/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -107,7 +117,8 @@
                         alt="Livro sobre liderança e design da alura books"></div>
                 <div class="swiper-slide"><img src="./img_figma/Guia Front-end.svg"
                         alt="Livro guia front -end alura books"></div>
-                <div class="swiper-slide"><img src="./img_figma/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+                <div class="swiper-slide"><img src="./img_figma/Acessibilidade.svg" alt="Livro sobre acessibilidade">
+                </div>
             </div>
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -118,10 +129,12 @@
             <div class="card__descrição">
                 <!-- 1° coluna -->
                 <div class="descrição">
-                    <h3 class="descrição__titulo"><img src="./img_figma/Estrelinhas.svg" alt="Escritora favorita do mês"></h3>
+                    <h3 class="descrição__titulo"><img src="./img_figma/Estrelinhas.svg"
+                            alt="Escritora favorita do mês"></h3>
                     <h3 class="descrição__titulo autora__nome">Autora do Mês</h3>
                     <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                    <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.
+                    </p>
                 </div>
                 <!-- 2° coluna -->
                 <img src="./img_figma/Perfil-escritora 1.svg" class="descrição__imagem">
@@ -173,7 +186,7 @@
         <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
         <input type="email" class="contato__email" placeholder="Cadastre seu e-mail">
     </section>
-    <hr/>
+    <hr />
     <footer class="rodapé">
         <h2 class="rodapé__titulo">Grupo Alura</h2>
     </footer>

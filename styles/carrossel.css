@@ -41,33 +41,33 @@
     border-radius: 10px;
     background: var(--branco);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 1em ;
+    margin: 1em;
     padding: 1.5em 0.55em;
 }
 
-.descrição__titulo{
+.descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
 }
 
-.descrição__titulo-livro{
-    color: var( --azul-card);
+.descrição__titulo-livro {
+    color: var(--azul-card);
     font-size: 18px;
     font-weight: 700;
     margin: 1em 0;
 }
 
-.descrição__texto{
+.descrição__texto {
     font-size: 14px;
     color: var(--preto);
     padding: 0 1em 0 0;
 }
 
-.botões__item{
+.botões__item {
     margin: 0 0.4em;
 }
 
-.botões__ancora{
+.botões__ancora {
     background-color: var(--laranja);
     padding: 1em 2.24em;
     color: var(--branco);
@@ -76,6 +76,33 @@
     margin-top: 0.5em;
 }
 
-.autora__nome{
+.autora__nome {
     margin: 1em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+        padding: 2em 0 1em 0;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card{
+        width: 50%;
+        margin: 2em auto;
+    }
+
 }

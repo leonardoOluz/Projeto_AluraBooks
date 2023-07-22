@@ -12,6 +12,8 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --preto: #000000;
     --azul-card: #002F52;
+    --cinza-claro: #858585;
+    --cinza: #474646;
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
 }

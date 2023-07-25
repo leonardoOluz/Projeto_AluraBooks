@@ -76,6 +76,10 @@
     margin-top: 0.5em;
 }
 
+.botões__ancora:active {
+    background-color: var(--azul);
+}
+
 .autora__nome {
     margin: 1em 0;
 }
@@ -118,24 +122,24 @@
         margin: 1em 0;
     }
 
-    .card{
+    .card {
         width: 60%;
         margin: 4em 0 1em 3em;
     }
 
-    .descrição__titulo{
+    .descrição__titulo {
         font-size: 32px;
     }
 
-    .descrição__titulo-livro{
+    .descrição__titulo-livro {
         font-size: 18px;
     }
 
-    .descrição__texto{
+    .descrição__texto {
         font-size: 16px;
     }
 
-    .descrição{
+    .descrição {
         margin-right: 1em;
     }
 }

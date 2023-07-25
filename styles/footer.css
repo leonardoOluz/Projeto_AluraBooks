@@ -11,6 +11,10 @@ hr {
     display: none;
 }
 
+.lista-rodapé__link:hover {
+    color: var(--laranja);
+}
+
 @media screen and (min-width: 1024px) {
     .lista-rodapé {
         display: block;
@@ -52,5 +56,5 @@ hr {
     .lista-rodapé {
         border-left: 1px solid var(--cinza-claro);
         padding: 1.5em 0 0 1em;
-    }    
+    }
 }
